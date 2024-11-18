@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+*{
+	padding:0;
+	margin:0;
+}
+.hero{
+	display:flex;
+	justify-content:center;
+	align-items:left;
+	flex-direction:center;
+	
+}
+.hero img{
+	width:450px;
+	height:200px;
+	object-fit:cover;
+}
+.items{
+	padding-top:50px;
+		margin:0px;
+	padding-left:0px;
+}
+.items h1{
+	font-size:20px;
+	width:150px;
+	text-align:center;
+	padding-bottom:5px;
+	margin-left:15px;
+}
+.items p{
+	font-size:10px;
+	width:180px;
+	text-align:center;
+	padding-bottom:5px;
+}
+.items button{
+	font-size:8px;
+	width:70px;
+	height:15px;
+	background-color:red;
+	border:none;
+	border-radius:2px;
+	padding:px;
+	margin-left:50px;
+}
+
